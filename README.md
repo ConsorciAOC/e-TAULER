@@ -250,7 +250,7 @@ El fitxer corresponent a la remesa s'ha de referenciar al bloc de dades //Ficher
 | /respostaSincronitzarEdictes/resultat/descripcio | Descripció del resultat de la operació. |
 
 <p align="center">
-<img align="center" src="img/RESPOSTA_ESPECIFICA.png" />
+<img align="center" src="img/RESPOSTA_SINCRONITZACIO.png" />
 </p>  
 
 ### 3.6 Descàrrega de document <a name="3.6"></a>
