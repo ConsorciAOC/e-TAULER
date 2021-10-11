@@ -52,8 +52,8 @@ Podreu trobar els XSD's del servei en aquest repositori sota el directori [/sche
         * [3.7.1.1. Petició – dades específiques](#3.7.1.1)
         * [3.7.1.2. Resposta – dades específiques](#3.7.1.2)
 - [4. URLs del tauler](#4)
-      * [4.1.1. Tauler d'un ens](#4.1.1)
-      * [4.1.2. Detall d'un anunci](#4.1.2)
+   * [4.1. Tauler d'un ens](#4.1)
+   * [4.2. Detall d'un anunci](#4.2)
 
 ## 1 Introducció <a name="1"></a>
 
@@ -316,7 +316,7 @@ El frontal de E-TAULER permet accedir directament als continguts dels edictes pu
 - Host entorn de producció: https://tauler.seu.cat
 - Host entorn de preproducció: https://tauler-pre.seu.cat
 
-#### 4.1.1 Tauler d'un ens <a name="4.1.1"></a>
+#### 4.1 Tauler d'un ens <a name="4.1"></a>
 
 El tauler d'un ens es publica a la URL base
 ```
@@ -340,7 +340,7 @@ Addicionalment es pot completar amb els següents paràmetres:
 <img align="center" src="img/TAULER.png" />
 </p>  
 
-### 4.1.2 Detall d'un anunci <a name="4.1.2"></a>
+### 4.2 Detall d'un anunci <a name="4.2"></a>
 
 El detall d'un determinat anunci es publica a la URL base
 ```
