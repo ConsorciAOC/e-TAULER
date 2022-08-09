@@ -61,7 +61,10 @@ Aquest document detalla la missatgeria associada al servei E-TAULER.
 
 Per poder realitzar la integració cal conèixer prèviament la següent documentació:
 
-- Document d'_Especificació de missatgeria pel consum de productes de la plataforma PCI_ del Consorci AOC.
+- [Document de Missatgeria Genèrica de la PCI del Consorci AOC.][PCI]
+
+[PCI]:https://github.com/ConsorciAOC/PCI
+
 
 ## 2 Transmissions de dades disponibles <a name="2"></a>
 Les dades disponibles a través del servei són les que es presenten a continuació:
