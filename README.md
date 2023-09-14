@@ -301,7 +301,7 @@ El frontal de E-TAULER permet accedir directament als continguts dels edictes pu
 - Host entorn de producció: https://tauler.seu.cat
 - Host entorn de preproducció: https://tauler-pre.seu.cat
 
-#### 4.1 Tauler d'un ens <a name="4.1"></a>
+#### 4.1 Tauler d'un ens <a name="4.1"></a> 
 
 El tauler d'un ens es publica a la URL base
 ```
@@ -341,5 +341,5 @@ Addicionalment es pot completar amb els següents paràmetres:
 | lang | Opcional. Idioma (per defecte català). Valors possibles: ca (català) / es (castellà) / oc (aranès) |
 
 <p align="center">
-<img align="center" src="img/DETALL.png" />
+<img align="center" src="img/DETALL1.png" />
 </p>  
