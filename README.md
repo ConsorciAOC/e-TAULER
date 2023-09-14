@@ -3,26 +3,6 @@ Document d’integració del servei.
 
 Podreu trobar els XSD's del servei en aquest repositori sota el directori [/schema](https://github.com/ConsorciAOC/e-TAULER/tree/main/schema).
 
-## Control del document
-
-### Informació general
-| **Títol:** | E-TAULER. Document d'integració del servei |
-| --- | --- |
-| **Creat per:** | Àrea de Tecnologia - Projectes |
-| **A revisar per:** | Àrea de Tecnologia - Suport |
-| **A aprovar per:** | Àrea de Tecnologia - Suport |
-| **Llista de distribució:** ||
-| **Nom del document:** | DI - Modalitats E-TAULER.doc |
-
-
-### Històric de revisions
-| **Versió** | **Data** | **Autor** | **Comentaris** |
-| --- | --- | --- | --- |
-| V1.0 | 05/11/2013 | Roger Noguera i Arnau | Creació del document. Versió 3.0. |
-| V1.1 | 13/01/2015 | Roger Noguera i Arnau | Funcionalitats versió 1er trimestre 2015 |
-| V1.2 | 19/11/2015 | Roger Noguera i Arnau | Edictes destacats. |
-| V1.3 | 03/09/2019 | Roger Noguera i Arnau | Esmenes. |
-
 ## Índex
 
 - [1. Introducció](#1)
@@ -33,7 +13,7 @@ Podreu trobar els XSD's del servei en aquest repositori sota el directori [/sche
       * [3.1.2. Petició – dades específiques](#3.1.2)
       * [3.1.3. Dades de l'edicte](#3.1.3)
         * [3.1.3.1. Resposta – dades específiques](#3.1.3.1)
-   * [3.2. Ampliar termini de publicació d'un edicte](#3.2)
+   * [3.2. Modificar dades d’un edicte](#3.2)
         * [3.2.1.1. Petició – dades específiques](#3.2.1.1)
         * [3.2.1.2. Resposta – dades específiques](#3.2.1.2)
    * [3.3. Cancel·lar un edicte](#3.3)
@@ -141,6 +121,7 @@ El fitxer corresponent a la remesa s'ha de referenciar al bloc de dades //Ficher
 | //esmena/idEdicte | Identificador de l'edicte que l'edicte a publicar esmena. |
 | //esmena/motiu/descripcio | Motiu de l'esmena. |
 | //esmena/motiu/idioma | Idioma:<ul><li>ca: català</li><li>es: castellà</li><li>oc: aranès</li></ul>|
+|//edicte/conteDadesPersonals | Indica si l’edicte conté dades personals. Si conté dades personals, l'edicte no apareixerà a l'històric d'anuncis i, per tant, deixarà d'estar accessible un cop retirat.|
 
 <p align="center">
 <img align="center" src="img/PETICIO_PUBLICAR_EDICTE.png" />
@@ -156,7 +137,7 @@ El fitxer corresponent a la remesa s'ha de referenciar al bloc de dades //Ficher
 <img align="center" src="img/RESPOSTA_PUBLICAR_EDICTE.png" />
 </p>  
 
-### 3.2 Ampliar termini de publicació d'un edicte <a name="3.2"></a>
+### 3.2 Modificar dades d’un edicte <a name="3.2"></a>
 
 ##### 3.2.1.1 Petició – dades específiques <a name="3.2.1.1"></a>
 
@@ -165,6 +146,7 @@ El fitxer corresponent a la remesa s'ha de referenciar al bloc de dades //Ficher
 | /peticioModificarEdicte/idEdicte | Identificador de l'edicte del qual es vol ampliar el termini.|
 | /peticioModificarEdicte/dataFiPublicacio | Nova data fi de la publicació de l'edicte. |
 | /peticioModificarEdicte/destacat | L'edicte és destacat. |
+| /peticioModificarEdicte/conteDadesPersonals | Indica si l’edicte conté dades personals. Si conté dades personals, l'edicte no apareixerà a l'històric d'anuncis i, per tant, deixarà d'estar accessible un cop retirat.|
 
 <p align="center">
 <img align="center" src="img/PETICIO_MODIFICAR_EDICTE.png" />
