@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.1">
+	<bindings schemaLocation="etauler-metadades-form.xsd" node="/xsd:schema">
+		<schemaBindings>
+			<package name="cat.aoc.etauler.metadades"/>
+		</schemaBindings>
+	</bindings>
+</bindings>
