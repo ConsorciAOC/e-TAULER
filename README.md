@@ -19,7 +19,7 @@ Podreu trobar els XSD's del servei en aquest repositori sota el directori [/sche
    * [3.3. Cancel·lar un edicte](#3.3)
         * [3.3.1.1. Petició – dades específiques](#3.3.1.1)
         * [3.3.1.2. Resposta – dades específiques](#3.3.1.2)
-   * [3.4. Despenjar un edicte](#3.4)
+   * [3.4. Despublicar un edicte](#3.4)
         * [3.4.1.1. Petició – dades específiques](#3.4.1.1)
         * [3.4.1.2. Resposta – dades específiques](#3.4.1.2)
    * [3.5. Sincronització](#3.5)
@@ -169,7 +169,7 @@ El fitxer corresponent a la remesa s'ha de referenciar al bloc de dades //Ficher
 
 | _Element_ | _Descripció_ |
 | --- | --- |
-| /peticioCancellarEdicte/idEdicte | Identificador de l'edicte a despenjar. |
+| /peticioCancellarEdicte/idEdicte | Identificador de l'edicte a Despublicar. |
 
 <p align="center">
 <img align="center" src="img/PETICIO_CANCELAR_EDICTE.png" />
@@ -186,13 +186,13 @@ El fitxer corresponent a la remesa s'ha de referenciar al bloc de dades //Ficher
 <img align="center" src="img/RESPOSTA_CANCELAR_EDICTE.png" />
 </p>  
 
-### 3.4 Despenjar un edicte <a name="3.4"></a>
+### 3.4 Despublicar un edicte <a name="3.4"></a>
 
 ##### 3.4.1.1 Petició – dades específiques <a name="3.4.1.1"></a>
 
 | _Element_ | _Descripció_ |
 | --- | --- |
-| /peticioDespenjarEdicte/idEdicte | Identificador de l'edicte a despenjar.|
+| /peticioDespublicarEdicte/idEdicte | Identificador de l'edicte a Despublicar.|
 
 <p align="center">
 <img align="center" src="img/PETICIO_DESPENJAR_EDICTE.png" />
@@ -204,8 +204,8 @@ El fitxer corresponent a la remesa s'ha de referenciar al bloc de dades //Ficher
 
 | _Element_ | _Descripció_ |
 | --- | --- |
-| /respostaDespenjarEdicte/resultat/codiResultat | Codi de resultat de la operació.<ul><li>0: operació realitzada correctament.</li><li>1: error realitzant l'operació.</li></ul>|
-| /respostaDespenjarEdicte/resultat/descripcio | Descripció del resultat de la operació. |
+| /respostaDespublicarEdicte/resultat/codiResultat | Codi de resultat de la operació.<ul><li>0: operació realitzada correctament.</li><li>1: error realitzant l'operació.</li></ul>|
+| /respostaDespublicarEdicte/resultat/descripcio | Descripció del resultat de la operació. |
 
 <p align="center">
 <img align="center" src="img/RESPOSTA_DESPENJAR_EDICTE.png" />
